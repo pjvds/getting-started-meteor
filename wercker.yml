@@ -4,9 +4,9 @@ build:
     - script:
         name: Update meteor
         code: |-
-          meteor version
+          meteor --version
           meteor update
-          meteor version
+          meteor --version
     - script:
         name: echo nodejs information
         code: |
